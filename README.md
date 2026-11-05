@@ -53,7 +53,6 @@ The Logistic Regression model was evaluated on 5,210 test samples.
 ### Overall Evaluation Results
 
 | Metric | Score |
-|---|---:|
 | Accuracy | 89.27% |
 | Weighted Precision | 89.47% |
 | Weighted Recall | 89.27% |
@@ -65,6 +64,27 @@ The Logistic Regression model was evaluated on 5,210 test samples.
 | Positive | 0.86 | 0.92 | 0.89 | 1557 |
 | Negative | 0.87 | 0.91 | 0.89 | 1509 |
 | Neutral | 0.93 | 0.86 | 0.90 | 2144 |
+
+### Confusion Matrix Analysis
+
+The confusion matrix evaluates the actual and predicted sentiment labels.
+
+| Actual Sentiment | Predicted Negative | Predicted Neutral | Predicted Positive |
+| Negative | 1370 | 63 | 76 |
+| Neutral | 140 | 1853 | 151 |
+| Positive | 60 | 69 | 1428 |
+
+![Urdu Sentiment Analysis Confusion Matrix](images/confusion_matrix.png)
+
+### Observations
+
+- 1,370 negative sentences were correctly classified.
+- 1,853 neutral sentences were correctly classified.
+- 1,428 positive sentences were correctly classified.
+- The model correctly classified 4,651 out of 5,210 test samples.
+- Overall accuracy was 89.27%.
+
+The confusion matrix shows that the model can distinguish between positive, negative, and neutral Urdu sentences, although some predictions are incorrect.
 
 ### Model Evaluation Summary
 
