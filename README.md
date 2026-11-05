@@ -74,7 +74,7 @@ The confusion matrix evaluates the actual and predicted sentiment labels.
 | Neutral | 140 | 1853 | 151 |
 | Positive | 60 | 69 | 1428 |
 
-![Urdu Sentiment Analysis Confusion Matrix](images/confusion_matrix.png)
+![Urdu Sentiment Analysis Confusion Matrix](confusion_matrix.png)
 
 ### Observations
 
