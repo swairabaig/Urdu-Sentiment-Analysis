@@ -45,17 +45,37 @@ Records outside the three sentiment categories are excluded during preprocessing
 9. Sentiment prediction
 10. Model saving
 
-## Evaluation Metrics
 
-The model is evaluated using:
+## Model Performance
 
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
+The Logistic Regression model was evaluated on 5,210 test samples.
 
-Actual evaluation results are available in the project notebook.
+### Overall Evaluation Results
+
+| Metric | Score |
+|---|---:|
+| Accuracy | 89.27% |
+| Weighted Precision | 89.47% |
+| Weighted Recall | 89.27% |
+| Weighted F1-Score | 89.28% |
+
+### Classification Report
+
+| Sentiment | Precision | Recall | F1-Score | Support |
+| Positive | 0.86 | 0.92 | 0.89 | 1557 |
+| Negative | 0.87 | 0.91 | 0.89 | 1509 |
+| Neutral | 0.93 | 0.86 | 0.90 | 2144 |
+
+### Model Evaluation Summary
+
+- The model achieved 89.27% overall accuracy.
+- Positive sentiment achieved 0.89 F1-score.
+- Negative sentiment achieved 0.89 F1-score.
+- Neutral sentiment achieved 0.90 F1-score.
+- The model was evaluated using accuracy, precision, recall, F1-score, and a confusion matrix.
+
+These results demonstrate the model's ability to classify Urdu text into positive, negative, and neutral sentiment categories.
+
 
 ## Installation
 
