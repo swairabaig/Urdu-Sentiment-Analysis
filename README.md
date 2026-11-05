@@ -144,3 +144,17 @@ Run all cells in order.
 ## Author
 
 BSCS Student | Aspiring AI/ML Engineer
+
+## Skills Demonstrated
+
+- Python Programming
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Natural Language Processing (NLP)
+- Text Vectorization using TF-IDF
+- Machine Learning
+- Logistic Regression
+- Model Evaluation
+- Confusion Matrix Visualization
+- Scikit-learn
+- Git and GitHub
